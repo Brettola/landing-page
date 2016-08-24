@@ -1,0 +1,49 @@
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+#header {
+  background-image: url("../imgs/background.jpg");
+}
+
+.theme-showcase h1, h2 {
+  text-align: center;
+}
+
+.theme-showcase h1 {
+  font-size: 100px;
+  color: black;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.theme-showcase h2 {
+  font-size: 50px;
+  color: black;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.theme-showcase {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.row {
+  padding: 100px 0;
+}
+
+.row h2 {
+  text-align: left;
+  background-color: transparent;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
